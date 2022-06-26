@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title> Java Script Demo</title>
+        <script type="text/javascript">
+            function showAlert(){
+                alert('Hello Welcome to class');
+            }
+            function showPrompt(){
+                name=prompt("Enter your Name:");
+                if(name ==""){
+                    confirm("Enter Name. Name should not be empty");
+                }
+                else{
+                    confirm("your Name is "+ name);
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Alert Demo</h1>
+        <input type="button" name="b1" value="Click Here" onClick="showAlert()">
+        <h1>Prompt and Confirm Demo</h1>
+        <input type="'button" value="Enter Name" onClick="showPrompt()">
+    </body>
+</html>

@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title> Java Script Demo</title>
+        <script type="text/javascript">
+            function showPrompt(){
+                num1=prompt("Enter num");
+                a=parseInt(num1);
+                if(num1==""){
+                    confirm("Enter number");
+                }
+                num2=prompt("Enter num");
+                b=parseInt(num2);
+                result=a+b;
+                confirm("your answer is  "+result);
+                
+            }
+        </script>
+    </head>
+        <h1>Prompt</h1>
+        <input type="button" value="Enter num" onClick="showPrompt()">
+        <input type="button" value="Enter num" onClick="showPrompt()">
+    </body>
+</html>
